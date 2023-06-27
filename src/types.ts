@@ -22,11 +22,11 @@ export interface Request {
     auth?: Auth
 }
 
-export interface Response<R = any> {
+export interface Response<R = any | undefined> {
     id?: number
     time: number
     channel: string
     event: string
     error?: Error
-    result?: R
+    result: R
 }

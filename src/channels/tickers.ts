@@ -14,7 +14,7 @@ export interface TickersChannel {
 }
 
 export function isTickersChannel(response: Response): response is Response<TickersChannel> {
-    return response.channel === Channel.TICKERS
+    return response.channel == Channel.TICKERS && response.event == 'update'
 }
 
 export function tickersChannel(currencyPairs: string[]): [string[], boolean] {
