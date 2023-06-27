@@ -1,7 +1,7 @@
 {
     "name": "@awuxtron/gatews",
     "type": "module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Gate.io WS Client",
     "homepage": "https://github.com/awuxtron/gatews#readme",
     "bugs": {
